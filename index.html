@@ -5,9 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body onload="init()">
+    <div class="topButtons">
+        <button class ="restartBtn" onclick="restart()"><img src="" alt=""></button>
+        <button onclick="beginnerDifficultyButton()">Easy</button>
+        <button onclick="mediumDifficultyButton()">Medium</button>
+        <button onclick="expertDifficultyButton()">Hard</button>
+
+    </div>
+    <div class="board">
+
+    </div>
     <script src="js/utilities.js"></script>
     <script src="js/grid.js"></script>
     <script src="js/buttons.js"></script>

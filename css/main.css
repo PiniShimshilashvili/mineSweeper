@@ -1,0 +1,11 @@
+.board {
+    background-color: silver;
+    color: silver;
+    margin-top: 150px;
+}
+.topButtons{
+margin-left: 50%;
+}
+.restartBtn{
+margin: auto;
+}

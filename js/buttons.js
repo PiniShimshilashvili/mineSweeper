@@ -1,12 +1,15 @@
 'use strict'
 
-function beginnerDifficultyButton(elBtn){
+function beginnerDifficultyButton() {
     gDifficulty = BEGINNER
 }
-mediumDifficultyButton(elBtn) {
+function mediumDifficultyButton() {
     gDifficulty = MEDIUM
 }
 
-expertDifficultyButton(elBtn) {
+function expertDifficultyButton() {
     gDifficulty = EXPERT
+}
+function restart(){
+    
 }
